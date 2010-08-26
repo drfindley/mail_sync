@@ -14,18 +14,17 @@
 # Note: This script requires the Mechanize python library, which acts as the browser and allows the script to
 # mimic a real web browser. Find it at: http://wwwsearch.sourceforge.net/mechanize/ .
 #
-# Written by David "Shoe" Shoemaker (mrshoe@gmail.com) and Travis Cripps (tcripps@gmail.com).
-# Minor improvements by Bruce Christensen (me@brucec.net).
+# Written by David "Shoe" Shoemaker (mrshoe at the gmail dot com) and Travis Cripps (tcripps at the gmail dot com).
+# Minor improvements by Bruce Christensen (me at the brucec dot net).
+# Minor improvements and major gdata awesome by Adam Findley (drfindley at the gmail dot com).
 #
 # TODO:
 #  - Auto-re-invite (for people who haven't accepted their invitations)
-#  - Whitelist/blacklist in separate, machine-editable file
 #  - Auto add to blacklist (m/f/x/b)
 #  - Remove from whitelist when on lds.org
 #  - clean up old whitelist/blacklist stuff
 #  - change invite message
 #  - change invite to add based on config
-#  - add date added to whitelist
 ##
 
 import ClientForm
